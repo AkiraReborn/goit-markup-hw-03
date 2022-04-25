@@ -43,11 +43,14 @@ footer {
 
 /* Header styles */
 
+header{
+  border-bottom: 1px solid #ECECEC;
+}
+
 header > .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid #ECECEC;
 }
 
 nav {
@@ -204,6 +207,7 @@ nav {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--titel-link-color);
 
   margin: 0px 0px 10px;
 }
@@ -229,6 +233,7 @@ nav {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+  color: var(--titel-link-color);
 
   margin: 0px;
   display: block;
@@ -264,6 +269,7 @@ nav {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+  color: var(--titel-link-color);
 
   margin: 0px auto 50px;
 }
@@ -284,6 +290,7 @@ nav {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+  color: var(--titel-link-color);
 
   margin: 0px;
   margin-bottom: 10px;
@@ -383,6 +390,8 @@ footer .container {
   justify-content: center;
   padding: 0px;
   margin-top: 0px;
+
+  padding-top: 50px;
 }
 
 .projects li:not(:nth-last-child(-n + 3)) {
@@ -394,7 +403,11 @@ footer .container {
 }
 
 .project-data{
-  padding: 20px 0px 20px;
+  padding: 20px 24px 20px 24px;
+
+  border: solid 1px #EEEEEE;
+  border-top: 0; 
+
 }
 
 .projects h3 {
